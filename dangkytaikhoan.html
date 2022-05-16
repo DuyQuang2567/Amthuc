@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quang Food</title>
+    <style>
+          #container{width: 100%;}
+        .ma{margin-left: 5%;margin-right: 5%;}
+        #logo{width: 15%;height: 180px;float: left;}
+        #dangki{width: 10%;height: 100px;float: right;} 
+        #muc{margin-left: 5%;margin-right: 5%;background-color: rgb(216, 91, 60);   width: 1530px;}
+        #thanh1{margin-left: 5%;margin-right: 5%;}
+                  
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+         
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          color: white;
+          background-color: blue;
+          font-weight: bold;
+        }
+        button{background-color: blue;color: aliceblue;width: 100px;height: 30px;}
+        #dd{width: 150px;height: 55px;}
+        
+        #dk{width: 200px;height: 50px; background-color: red; color: aliceblue;}
+        #tl{width: 200px;height: 50px; background-color: rgb(255, 255, 255);}
+        #trong2{width: 15%;height: 195px; float: left;}
+        #trong3{width: 15%;height: 195px; float: right;}
+        
+        #mau{height: 3px;background-color: rgb(0, 0, 0);}
+        #lienhe{width: 30%;float: left;}
+        #map{margin-left: 60%;}
+        #form{margin:0 30%;
+        background-color: rgb(255, 255, 255);
+        padding: 10px 32px 32px;
+        width: 500px;
+        height: 600px;
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+      }
+      #mauden{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3) ;}
+      .input{width: 60%;height: 30px;}
+
+        </style>
+</head>
+<body>
+  <div>
+    <div id="mauden"></div>
+    <div style="background-image: url(image/nen.jpg);height: 1000px;">
+      <div id="thanh1">
+    <div id="amthuc">
+        <div id="logo"><img src="image/logo.png" alt="" width="180px" height="180px"></div>
+         <div id="muc">
+       <h2>
+          <ul>
+              <li><a href="amthuc.html">Trang chủ</a></li>
+              <li><a href="Vechungtoi.html" target="_top" title="Về chúng tôi">Về chúng tôi</a></li>
+              <li><a href="Tukhoa.html"target="_top" title="Từ khóa">Từ khóa</a></li>
+              <li><a href="Congthuc.html"target="_top" title="Công thức">Công thức</a></li>
+             
+            </ul>
+       </h2>  
+         </div>  
+       </div>
+      </div>
+        <br style="clear: both;">
+        
+        
+       
+       <div id="form" >
+         
+           <form action="dk.html">
+            <big>   
+              <h1 style="text-align: center;color: rgb(0, 255, 85);">Đăng ký tài khoản</h1>
+               Tài khoản: <input type="text" placeholder="Email hoặc số điện thoại" class="input"> <br><br>
+               Mật khẩu: <input type="password" placeholder="mật khẩu của bạn" class="input"> <br><br>                                                                                                                                                                                                                                                       
+               Họ và tên: <input type="text"  placeholder="Họ và tên"class="input">  <br> <br>
+               Số điện thoại: <input type="text "  placeholder="Số điện thoại"class="input"><br><br>
+               Giới tính : Nam <input type="radio" name="sex" value="Nam"> Nữ <input type="radio" name="sex" value="Nữ"><br><br>
+               <button id="tl" ><a href="amthuc.html" > <big> Trở lại</big></a></button>
+               <input type="submit" name="sex" value="Đăng ký" id="dk">
+            </big>
+
+           </form>
+       
+      </div>
+       
+       
+       
+      </div>
+</body>
+</html>
